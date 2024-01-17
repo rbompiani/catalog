@@ -1,5 +1,5 @@
+import Page from '../components/Page';
+
 export default function IndexPage() {
-    return <div>
-        <p>Hello!</p>
-    </div>
+      return  <p>Hello! I am the index.</p>;
 }

@@ -1,5 +1,10 @@
+import Page from "../components/Page";
+
 export default function SellPage() {
-    return <div>
-        <p>Hello!</p>
-    </div>
+    return (
+        <>        
+            <p>Hello! I am the sell page.</p>
+            <p>this is the second line</p>
+        </>
+    );
 }
