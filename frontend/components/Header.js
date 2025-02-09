@@ -32,7 +32,7 @@ const HeaderStyles = styled.header`
   }
 `;
 
-export default function Header() {
+export default function Header({isExtra}) {
   return (
     <HeaderStyles>
       <div className="bar">
@@ -42,6 +42,7 @@ export default function Header() {
       </div>
       <div className="sub-bar">
         <p>Search</p>
+        {isExtra ? <p>Extra</p> : <p>Regular</p>}
       </div>
       <Nav />
     </HeaderStyles>
